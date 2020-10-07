@@ -1,0 +1,334 @@
+body {
+    background-image: url(./images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: auto 120%;
+    margin: auto;
+    width: 80vw;
+    height: 100%;
+}
+
+header, footer {
+    color: white;
+}
+
+article {
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 1px solid white;
+    box-shadow: 0 0 10px black;
+    font-weight: 800;
+}
+
+article > div {
+    display: inline-block;
+    width: 48%;
+    color: rgb(75, 74, 74);
+    vertical-align: top;
+}
+
+h2 {
+    color: orangered;
+    text-shadow: 1px 0 0 white,
+                -1px 0 0 white,
+                0 1px 0 white,
+                0 -1px 0 white,
+                1px 1px 0 white,
+                -1px -1px 0 white,
+                -1px 1px 0 white;
+}
+
+article > h2 {
+    text-align: center;
+    color: orangered;
+    background-image: url(./images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    border: 1px solid white;
+    border-radius: 5px;
+    text-shadow: 1px 0 0 white,
+                -1px 0 0 white,
+                0 1px 0 white,
+                0 -1px 0 white,
+                1px 1px 0 white,
+                -1px -1px 0 white,
+                -1px 1px 0 white;
+    box-shadow: inset 0px 0px 10px black;
+}
+
+article > h4 {
+    color: blue;
+    font-style: oblique;
+}
+
+article > div > h5 {
+    color: rgb(189, 114, 16);
+    font-size: large;
+}
+
+aside {
+    display: inline-block;
+    width: 50%;
+    height: 140px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px black;
+    background-color: rgba(163, 140, 247, 0.2);
+    border: 1px solid white;
+}
+
+aside > ul {
+    padding-left: 10px;
+    margin: 0;
+    background-color: gainsboro;
+    border: 1px solid black;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+aside > ul > li {
+    display: inline-block;
+    border: 5px solid red;
+    border-radius: 50%;
+}
+
+aside > ul > li:nth-child(2) {
+    border: 5px solid orange;
+}
+
+aside > ul > li:nth-child(3) {
+    border: 5px solid green;
+}
+
+section:nth-child(1) > article > aside > p {
+    text-align: center;
+    line-height: 85px;
+    color: rgb(63, 141, 56);
+    font-size: larger;
+}
+
+section:nth-child(2) > article > aside > p {
+    text-align: center;
+    line-height: 85px;
+    color: rgb(63, 141, 56);
+    font-size: larger;
+}
+
+section:nth-of-type(3) > article:nth-of-type(1) > aside > p {
+    text-align: center;
+    line-height: 85px;
+    color: rgb(63, 141, 56);
+    font-size: larger;
+}
+
+section:nth-of-type(3) > article:nth-of-type(2) > aside > p {
+    text-align: center;
+    line-height: 85px;
+    color: rgb(63, 141, 56);
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+section:nth-of-type(3) > article:nth-of-type(3) > aside > p {
+    text-align: center;
+    line-height: 85px;
+    color: rgb(63, 141, 56);
+    font-size: larger;
+    font-family: 'Indie Flower', cursive;
+    font-size: 2em;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+section:nth-of-type(3) > article:nth-of-type(4) > aside > p {
+    text-align: center;
+    line-height: 85px;
+    color: rgb(63, 141, 56);
+    font-size: larger;
+    font-family: 'Indie Flower', cursive;
+    font-size: 2em;
+}
+
+@font-face {
+    font-family: "Pio font";
+    src: url('./Assets/Dancing_Script/DancingScript-VariableFont_wght.ttf');
+}
+
+section:nth-of-type(3) > article:nth-of-type(5) > aside > p {
+    text-align: center;
+    line-height: 85px;
+    color: rgb(63, 141, 56);
+    font-size: larger;
+    font-family: "Pio font", Arial;
+    font-size: 2em;
+}
+
+section:nth-of-type(4) > article > aside {
+    font-size: 20px;
+    height: min-content;
+}
+
+section:nth-of-type(4) > article > aside > div {
+    background-color: rgba(0, 128, 0, 0.671);
+    margin: 10px;
+    padding-bottom: 10px;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+section:nth-of-type(4) > article > aside > div > div {
+    background-color: rgb(145, 41, 41);
+    margin: 10px;
+    padding-bottom: 10px;
+    font-size: 1.2em;
+}
+
+section:nth-of-type(4) > article > aside > div > div >div {
+    background-color: rgb(255, 238, 5);
+    margin: 10px;
+    padding-bottom: 10px;
+    font-size: 1.2em;
+}
+
+.rem {
+    font-size: 1.2rem;
+}
+
+.rem > div{
+    font-size: 1.2rem;
+}
+
+.percent {
+    font-size: 120%;
+}
+
+.smaller, .smaller > div, .smaller > div > div {
+    font-size: smaller;
+}
+
+.larger, .larger > div, .larger > div > div {
+    font-size: larger;
+}
+
+.md {
+    font-size: medium;
+}
+
+.sm {
+    font-size: small;
+}
+
+.lg {
+    font-size: large;
+}
+
+.highlight {
+    background-color: rgb(210, 170, 236);
+}
+
+div > h3 {
+    color: bisque;
+    text-shadow: 1px 0 0 black,
+                -1px 0 0 black,
+                0 1px 0 black,
+                0 -1px 0 black,
+                1px 1px 0 black,
+                -1px -1px 0 black,
+                -1px 1px 0 black;
+}
+
+.centered-content {
+    margin: auto;
+    width: 50%;
+}
+
+.centered-text {
+    text-align: center;
+    width: 50%;
+}
+
+.justified {
+    text-align: justify;
+    width: 50%;
+    margin-left: 50%;
+
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.font-w-800 {
+    font-weight: 800;
+}
+
+.bolder {
+    font-weight: bolder;
+}
+
+.parent {
+    font-weight: bold;
+}
+
+.child {
+    font-weight: lighter;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.oblique {
+    font-style: oblique;
+}
+
+.t-d-underline {
+    text-decoration: underline;
+}
+
+.t-d-none {
+    text-decoration: none;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.lowercase {
+    text-transform: lowercase;
+}
+
+.text-shadow {
+    text-shadow: 0 0 25px black;
+}
+
+.f-s-20 {
+    font-size: 150px;
+}
+
+.color-red {
+    color: red;
+}
+
+.color-blue {
+    color: blue;
+}
+
+.color-yellow {
+    color: yellow;
+}
+
+.ps::before {
+    content: "I'm before pseudo element";
+    color: greenyellow;
+}
+
+.ps::after {
+    content: "I'm before pseudo element";
+    color: orangered;
+}
